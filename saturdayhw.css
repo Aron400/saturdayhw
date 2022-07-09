@@ -1,0 +1,101 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 50px);
+}
+
+.grid-item-red{
+    background-color: red;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.grid-item-yellow{
+    background-color: yellow;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.grid-item-black{
+    background-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    display: grid;
+    grid-template-columns: 15px;
+    grid-template-rows: 15px;
+}
+
+.grid-item-green{
+    background-color: green;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.grid-item-blue{
+    background-color: blue;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.grid-item-white{
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+body{
+    background-color: black;
+    border-style: solid;
+    border-left-width: 10px;
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 0px;
+    border-color: teal;
+    margin-top: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 20px;
+    height: 100%;
+}
+
+.score{
+    color: teal;
+    position: absolute;
+    top: 2px;
+    right: 400px;
+}
+
+.bar{
+    bottom: 0;
+    margin-top: 10px;
+    margin-left: -200px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    width: 400px;
+    height: 20px;
+    background-color: teal;
+}
+
+html{
+    height: 100%;
+}
+
+.two{
+    position: relative;
+    left: 107px;
+}
+
+.three{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    left: 120px;
+    top: 30px;
+}
